@@ -1,4 +1,4 @@
-from udtablegame import udtg
+
 from copy import deepcopy
 import time
 from collections import Counter
@@ -79,12 +79,11 @@ def show_stats(m):
 
 
 if __name__ == "__main__":
-    b, m = udtg.flappy_bird(0)
-    
-    while CT['called']!=100000:
-        key = ml(b, m)
-        b, m = udtg.flappy_bird(key)
-        udtg.show(b, m)
-        show_stats(m)
-        
-        time.sleep(0)  # Adjusted sleep time for better readability
+    #from udtablegame import udtg
+    #b, m = udtg.flappy_bird(0)
+    #while CT['called']!=100000:
+        #key = ml(b, m)
+        #b, m = udtg.flappy_bird(key)
+        #udtg.show(b, m)
+        #show_stats(m)
+        #time.sleep(0)  # Adjusted sleep time for better readability
